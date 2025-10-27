@@ -52,7 +52,17 @@ function App() {
   
 
   return (
-    <div>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',   
+        justifyContent: 'center',  
+        alignItems: 'center',      
+        height: '100vh',           
+        textAlign: 'center',       
+        backgroundColor: '#f9f9f9' 
+      }}
+    >
       <h1>天气查询-React</h1>
 
       <input
